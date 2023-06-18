@@ -9,7 +9,7 @@ export default function App() {
   };
   return (
     <>
-      <Routes>
+      <Routes> // It was with capital R
       <Route path="/" element={<Home />} />
         <Route path="/student" element={<Student details={data} />}>
           
